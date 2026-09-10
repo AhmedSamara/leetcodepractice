@@ -1,3 +1,10 @@
+"""
+Thoughts: fundamentally you are looking for a graph cycle.
+I did this imitating what's in real life. Remove a course, see if you can remove more.
+Hints:
+- Was able to go faster by looking at `numCourses`. Allowed to have an end condition instead of iterating.
+
+"""
 class Solution:
 
     def recursiveRemoval(self, degrees, graph, zero_degree, removed_count, numCourses):
